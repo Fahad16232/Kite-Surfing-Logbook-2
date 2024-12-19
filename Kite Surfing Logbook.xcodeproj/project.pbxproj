@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37F608F72D120AC400DCD036 /* AddEditWindConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F608EC2D120AC400DCD036 /* AddEditWindConditionView.swift */; };
+		37F608F82D120AC400DCD036 /* SessionLogsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F608F32D120AC400DCD036 /* SessionLogsManager.swift */; };
+		37F608F92D120AC400DCD036 /* AddEditKiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F608E92D120AC400DCD036 /* AddEditKiteView.swift */; };
+		37F608FA2D120AC400DCD036 /* SessionLogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F608F42D120AC400DCD036 /* SessionLogsView.swift */; };
+		37F608FB2D120AC400DCD036 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F608F22D120AC400DCD036 /* Model.swift */; };
+		37F608FC2D120AC400DCD036 /* WindConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F608F62D120AC400DCD036 /* WindConditionsView.swift */; };
+		37F608FD2D120AC400DCD036 /* AchievementsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F608E62D120AC400DCD036 /* AchievementsManager.swift */; };
+		37F608FE2D120AC400DCD036 /* AddEditSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F608EB2D120AC400DCD036 /* AddEditSessionView.swift */; };
+		37F608FF2D120AC400DCD036 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F608E72D120AC400DCD036 /* AchievementsView.swift */; };
+		37F609002D120AC400DCD036 /* AddEditMaintenanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F608EA2D120AC400DCD036 /* AddEditMaintenanceView.swift */; };
+		37F609012D120AC400DCD036 /* GearMaintenanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F608EE2D120AC400DCD036 /* GearMaintenanceManager.swift */; };
+		37F609022D120AC400DCD036 /* WindConditionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F608F52D120AC400DCD036 /* WindConditionsManager.swift */; };
+		37F609032D120AC400DCD036 /* KiteInventoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F608F02D120AC400DCD036 /* KiteInventoryManager.swift */; };
+		37F609042D120AC400DCD036 /* AddEditAchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F608E82D120AC400DCD036 /* AddEditAchievementView.swift */; };
+		37F609052D120AC400DCD036 /* GearMaintenanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F608EF2D120AC400DCD036 /* GearMaintenanceView.swift */; };
+		37F609062D120AC400DCD036 /* KiteInventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F608F12D120AC400DCD036 /* KiteInventoryView.swift */; };
+		37F609072D120AC400DCD036 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F608ED2D120AC400DCD036 /* ContentView.swift */; };
+		606BA32E2D1208EE00CE8E0E /* Kite_Surfing_LogbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606BA32D2D1208EE00CE8E0E /* Kite_Surfing_LogbookApp.swift */; };
+		606BA3322D1208FD00CE8E0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606BA3312D1208FD00CE8E0E /* Assets.xcassets */; };
+		606BA3352D1208FD00CE8E0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606BA3342D1208FD00CE8E0E /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37F608E62D120AC400DCD036 /* AchievementsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsManager.swift; sourceTree = "<group>"; };
+		37F608E72D120AC400DCD036 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		37F608E82D120AC400DCD036 /* AddEditAchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditAchievementView.swift; sourceTree = "<group>"; };
+		37F608E92D120AC400DCD036 /* AddEditKiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditKiteView.swift; sourceTree = "<group>"; };
+		37F608EA2D120AC400DCD036 /* AddEditMaintenanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditMaintenanceView.swift; sourceTree = "<group>"; };
+		37F608EB2D120AC400DCD036 /* AddEditSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditSessionView.swift; sourceTree = "<group>"; };
+		37F608EC2D120AC400DCD036 /* AddEditWindConditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditWindConditionView.swift; sourceTree = "<group>"; };
+		37F608ED2D120AC400DCD036 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37F608EE2D120AC400DCD036 /* GearMaintenanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearMaintenanceManager.swift; sourceTree = "<group>"; };
+		37F608EF2D120AC400DCD036 /* GearMaintenanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearMaintenanceView.swift; sourceTree = "<group>"; };
+		37F608F02D120AC400DCD036 /* KiteInventoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiteInventoryManager.swift; sourceTree = "<group>"; };
+		37F608F12D120AC400DCD036 /* KiteInventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiteInventoryView.swift; sourceTree = "<group>"; };
+		37F608F22D120AC400DCD036 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		37F608F32D120AC400DCD036 /* SessionLogsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionLogsManager.swift; sourceTree = "<group>"; };
+		37F608F42D120AC400DCD036 /* SessionLogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionLogsView.swift; sourceTree = "<group>"; };
+		37F608F52D120AC400DCD036 /* WindConditionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindConditionsManager.swift; sourceTree = "<group>"; };
+		37F608F62D120AC400DCD036 /* WindConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindConditionsView.swift; sourceTree = "<group>"; };
+		606BA32A2D1208EE00CE8E0E /* Kite Surfing Logbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kite Surfing Logbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		606BA32D2D1208EE00CE8E0E /* Kite_Surfing_LogbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kite_Surfing_LogbookApp.swift; sourceTree = "<group>"; };
+		606BA3312D1208FD00CE8E0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		606BA3342D1208FD00CE8E0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		606BA3272D1208EE00CE8E0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		379130B52D13332C0043C28A /* SessionView */ = {
+			isa = PBXGroup;
+			children = (
+				37F608F32D120AC400DCD036 /* SessionLogsManager.swift */,
+				37F608F42D120AC400DCD036 /* SessionLogsView.swift */,
+				37F608EB2D120AC400DCD036 /* AddEditSessionView.swift */,
+			);
+			path = SessionView;
+			sourceTree = "<group>";
+		};
+		379130B62D13358B0043C28A /* kitsInventory */ = {
+			isa = PBXGroup;
+			children = (
+				37F608E92D120AC400DCD036 /* AddEditKiteView.swift */,
+				37F608F02D120AC400DCD036 /* KiteInventoryManager.swift */,
+				37F608F12D120AC400DCD036 /* KiteInventoryView.swift */,
+			);
+			path = kitsInventory;
+			sourceTree = "<group>";
+		};
+		379130B92D1336690043C28A /* GearMaintenance */ = {
+			isa = PBXGroup;
+			children = (
+				37F608EA2D120AC400DCD036 /* AddEditMaintenanceView.swift */,
+				37F608EE2D120AC400DCD036 /* GearMaintenanceManager.swift */,
+				37F608EF2D120AC400DCD036 /* GearMaintenanceView.swift */,
+			);
+			path = GearMaintenance;
+			sourceTree = "<group>";
+		};
+		379130BA2D1337D80043C28A /* WindCondition */ = {
+			isa = PBXGroup;
+			children = (
+				37F608EC2D120AC400DCD036 /* AddEditWindConditionView.swift */,
+				37F608F52D120AC400DCD036 /* WindConditionsManager.swift */,
+				37F608F62D120AC400DCD036 /* WindConditionsView.swift */,
+			);
+			path = WindCondition;
+			sourceTree = "<group>";
+		};
+		379130BB2D1339070043C28A /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				37F608E72D120AC400DCD036 /* AchievementsView.swift */,
+				37F608E62D120AC400DCD036 /* AchievementsManager.swift */,
+				37F608E82D120AC400DCD036 /* AddEditAchievementView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		606BA3212D1208EE00CE8E0E = {
+			isa = PBXGroup;
+			children = (
+				606BA32C2D1208EE00CE8E0E /* Kite Surfing Logbook */,
+				606BA32B2D1208EE00CE8E0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		606BA32B2D1208EE00CE8E0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				606BA32A2D1208EE00CE8E0E /* Kite Surfing Logbook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		606BA32C2D1208EE00CE8E0E /* Kite Surfing Logbook */ = {
+			isa = PBXGroup;
+			children = (
+				606BA32D2D1208EE00CE8E0E /* Kite_Surfing_LogbookApp.swift */,
+				37F608ED2D120AC400DCD036 /* ContentView.swift */,
+				606BA3312D1208FD00CE8E0E /* Assets.xcassets */,
+				37F608F22D120AC400DCD036 /* Model.swift */,
+				379130B62D13358B0043C28A /* kitsInventory */,
+				379130BB2D1339070043C28A /* Achievements */,
+				379130BA2D1337D80043C28A /* WindCondition */,
+				379130B92D1336690043C28A /* GearMaintenance */,
+				379130B52D13332C0043C28A /* SessionView */,
+				606BA3332D1208FD00CE8E0E /* Preview Content */,
+			);
+			path = "Kite Surfing Logbook";
+			sourceTree = "<group>";
+		};
+		606BA3332D1208FD00CE8E0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				606BA3342D1208FD00CE8E0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		606BA3292D1208EE00CE8E0E /* Kite Surfing Logbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606BA3382D1208FD00CE8E0E /* Build configuration list for PBXNativeTarget "Kite Surfing Logbook" */;
+			buildPhases = (
+				606BA3262D1208EE00CE8E0E /* Sources */,
+				606BA3272D1208EE00CE8E0E /* Frameworks */,
+				606BA3282D1208EE00CE8E0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kite Surfing Logbook";
+			productName = "Kite Surfing Logbook";
+			productReference = 606BA32A2D1208EE00CE8E0E /* Kite Surfing Logbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		606BA3222D1208EE00CE8E0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					606BA3292D1208EE00CE8E0E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 606BA3252D1208EE00CE8E0E /* Build configuration list for PBXProject "Kite Surfing Logbook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 606BA3212D1208EE00CE8E0E;
+			productRefGroup = 606BA32B2D1208EE00CE8E0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				606BA3292D1208EE00CE8E0E /* Kite Surfing Logbook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		606BA3282D1208EE00CE8E0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606BA3352D1208FD00CE8E0E /* Preview Assets.xcassets in Resources */,
+				606BA3322D1208FD00CE8E0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		606BA3262D1208EE00CE8E0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F608F72D120AC400DCD036 /* AddEditWindConditionView.swift in Sources */,
+				37F608F82D120AC400DCD036 /* SessionLogsManager.swift in Sources */,
+				37F608F92D120AC400DCD036 /* AddEditKiteView.swift in Sources */,
+				37F608FA2D120AC400DCD036 /* SessionLogsView.swift in Sources */,
+				37F608FB2D120AC400DCD036 /* Model.swift in Sources */,
+				37F608FC2D120AC400DCD036 /* WindConditionsView.swift in Sources */,
+				37F608FD2D120AC400DCD036 /* AchievementsManager.swift in Sources */,
+				37F608FE2D120AC400DCD036 /* AddEditSessionView.swift in Sources */,
+				37F608FF2D120AC400DCD036 /* AchievementsView.swift in Sources */,
+				37F609002D120AC400DCD036 /* AddEditMaintenanceView.swift in Sources */,
+				37F609012D120AC400DCD036 /* GearMaintenanceManager.swift in Sources */,
+				37F609022D120AC400DCD036 /* WindConditionsManager.swift in Sources */,
+				37F609032D120AC400DCD036 /* KiteInventoryManager.swift in Sources */,
+				37F609042D120AC400DCD036 /* AddEditAchievementView.swift in Sources */,
+				37F609052D120AC400DCD036 /* GearMaintenanceView.swift in Sources */,
+				37F609062D120AC400DCD036 /* KiteInventoryView.swift in Sources */,
+				37F609072D120AC400DCD036 /* ContentView.swift in Sources */,
+				606BA32E2D1208EE00CE8E0E /* Kite_Surfing_LogbookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		606BA3362D1208FD00CE8E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		606BA3372D1208FD00CE8E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		606BA3392D1208FD00CE8E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kite Surfing Logbook/Preview Content\"";
+				DEVELOPMENT_TEAM = 3L6V47UXR6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kite Surfing Logbook";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.Kite-Surfing-Logbook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		606BA33A2D1208FD00CE8E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kite Surfing Logbook/Preview Content\"";
+				DEVELOPMENT_TEAM = 3L6V47UXR6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kite Surfing Logbook";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.Kite-Surfing-Logbook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		606BA3252D1208EE00CE8E0E /* Build configuration list for PBXProject "Kite Surfing Logbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606BA3362D1208FD00CE8E0E /* Debug */,
+				606BA3372D1208FD00CE8E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606BA3382D1208FD00CE8E0E /* Build configuration list for PBXNativeTarget "Kite Surfing Logbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606BA3392D1208FD00CE8E0E /* Debug */,
+				606BA33A2D1208FD00CE8E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 606BA3222D1208EE00CE8E0E /* Project object */;
+}
